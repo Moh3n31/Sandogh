@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <Title>Sandugh</Title>
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/login-page.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;700&display=swap"
+        rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    </head>
+
+    <body>
+
+        <div class="main-section">
+            <p class="title">صندوق</p>
+
+            <dev class="login-section">
+            
+                <div class="username">
+                    <p>نام کاربری :</p>
+                    <input type="text" class="text-input" id="username-input">
+                </div>
+            
+                <div class="password">
+            
+                    <p>رمز عبور :</p>
+                    <button class="visibility-button" onclick="visibility()" id="visibility-button">
+                        <img src="icons/visibility.png" id="button-icon">
+                    </button>
+                    <input type="password" class="password-input" id="password-input"
+                    style="margin-right: -38px;">
+                </div>
+            
+                <div class="two-sections">
+                    <a>فراموشی رمز</a>
+                    <a href="signin-page.html">ثبت نام</a>
+                </div>
+            
+                <div>
+                    <button class="login-button" onclick="loggingIn ()">ورود</button>
+                </div>
+            </dev>
+
+            <!-- this will be shown in case of an error in login -->
+            <p class="login-error" id="login-error">نام کاربری یا رمز عبور اشتباه می باشد!</p> 
+        </div>
+
+        <script src="js/login-page.js"></script>
+    </body>
+</html>

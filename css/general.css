@@ -1,0 +1,14 @@
+html {
+    background-image: url(../pictures/pxfuel.jpg);
+    background-size: cover;
+    font-family: 'Vazirmatn', 'Poppins', sans-serif, sans-serif;
+    direction: rtl;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+a:hover {
+    cursor: pointer;
+}

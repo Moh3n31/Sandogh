@@ -1,0 +1,126 @@
+.main-section {
+  background-color: white;
+  border-radius: 13px;
+
+  padding: 20px;
+  margin: 8% 26% 0 26%;
+}
+
+.title {
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.signin-section {
+  height: 300px;
+  
+  overflow-y: scroll;
+}
+
+.signin-section::-webkit-scrollbar {
+  width: 7px;
+}
+
+
+.signin-section::-webkit-scrollbar-track {
+  background: pink;
+}
+
+
+.signin-section::-webkit-scrollbar-thumb:hover {
+  background: rgb(114, 57, 114);
+}
+
+
+.signin-section::-webkit-scrollbar-thumb {
+  background: rgb(82, 46, 82);
+}
+
+.username, .password,
+.phone-number {
+  display: flex;
+  margin: 0 27%;
+}
+
+.username-input,
+.password-input-1,
+.password-input-2,
+.phone-input {
+  direction: ltr;
+  font-size: 16px;
+
+  margin-top: 14px;
+  padding-left: 10px;
+
+  height: 35px;
+  outline: none;
+
+  border: solid rgb(155, 155, 155) 2px;
+}
+
+.username-input {
+  margin-right: 35px;
+}
+
+.password-input-1 {
+  margin-right: 47px;
+}
+
+.password-input-2 {
+  margin-right: 15px;
+}
+
+.phone-input {
+  margin-right: 25px;
+}
+
+.username-input:focus,
+.password-input-1:focus,
+.password-input-2:focus,
+.phone-input:focus {
+  border: solid rgba(153, 6, 153, 0.76) 2px;
+  border-radius: 3px;
+}
+
+.one-sections {
+  display: flex;
+  justify-content: space-evenly;
+
+  padding: 0 15px;
+  margin: 3% 20% 0 20%;
+
+  font-size: 15px;
+}
+
+a {
+  color: rgb(82, 46, 82);
+  text-decoration: underline;
+}
+
+.signin-button {
+  margin: 5% 43%;
+  padding: 10px 20px;
+
+  background-color: white;
+  border: solid rgb(82, 46, 82) 2px;
+
+  font-size: 17px;
+  font-family: 'Vazirmatn',
+    'Poppins',
+    sans-serif,
+    sans-serif;
+  font-weight: bold;
+  color: rgb(82, 46, 82);
+
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.signin-button:hover {
+  background-color: rgb(231, 187, 243);
+}
+
+.signin-button:active {
+  background-color: rgb(82, 46, 82);
+  color: white;
+}
